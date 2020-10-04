@@ -1,0 +1,248 @@
+body, html{
+	margin: 0 auto;
+	position: relative;
+}
+/* .navigation-Bar-Container{
+	width: 100%;
+	height: 100px;
+} */
+.navigation-Head{
+	width: 100%;
+	height: 40px;
+	background: black;
+	margin: 0 auto;
+	
+}
+.navigation-Title{
+	width: 1210px;
+	margin: 0 auto;
+	background: saddlebrown;
+}
+.navigation-Title>a>div{
+	width: 110px;
+	height: 40px;
+	float: left;
+	color: white;
+	font-family: Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,冬青黑体,STHeiti,华文黑体,Microsoft YaHei,微软雅黑,sans-serif;
+    font-size: 12.39px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 40px;
+	text-align: center;
+}
+.navigation-Title>a div span{
+	padding: 13.2px 15px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.navigation-Title>a div span:hover{
+	background: #28bdb7;
+}
+.navigation-Title>a:first-child>div span{
+	background: #b00e37;
+}
+.navigation-Content{
+	position: absolute;
+	width: 1180px;
+	height: 710px;
+	left: 169.5px;
+}
+
+
+.navigation-Content #content1{
+	position: absolute;
+	width: 200px;
+	height: 150px;
+	display: none;
+	border: solid 1px #f0f0f0;
+	border-top: none;
+	z-index: 1000;
+}
+.navigation-Content #content1>div:first-child{
+	width: 200px;
+	height: 7px;
+	background: #b00e37;	
+}
+.navigation-Content #content1>div:last-child{
+	padding-left: 10px;
+}
+
+
+.navigation-Content #content2{
+	position: absolute;
+	width: 1180px;
+	height: 180px;
+	display: none;
+	border: solid 1px #f0f0f0;
+	border-top: none;
+	background:white;
+	z-index:1000;
+}
+.navigation-Content #content2>div:first-child{
+	width: 1180px;
+	height: 7px;
+	background: #28bdb7;
+}
+
+
+
+.navigation-Content #content3{
+	position: absolute;
+	left: 40px;
+	width: 400px;
+	height: 180px;
+	display: none;
+	border: solid 1px #f0f0f0;
+	border-top: none;
+	
+}
+.navigation-Content #content3>div:first-child{
+	width: 400px;
+	height: 7px;
+	background: #28bdb7;
+}
+
+
+
+.navigation-Content #content4{
+	position: absolute;
+	width: 1000px;
+	height: 180px;
+	display: none;
+	border: solid 1px #f0f0f0;
+	border-top: none;
+}
+.navigation-Content #content4>div:first-child{
+	width: 1000px;
+	height: 7px;
+	background: #28bdb7;
+}
+
+
+.navigation-Content #content5{
+	position: absolute;
+	width: 1000px;
+	height: 180px;
+	display: none;
+	border: solid 1px #f0f0f0;
+	border-top: none;
+}
+.navigation-Content #content5>div:first-child{
+	width: 1000px;
+	height: 7px;
+	background: #28bdb7;
+}
+
+
+.navigation-Content #content6{
+	position: absolute;
+	left: 100px;
+	width: 1000px;
+	height: 180px;
+	display: none;
+	border: solid 1px #f0f0f0;
+	border-top: none;
+}
+.navigation-Content #content6>div:first-child{
+	width: 1000px;
+	height: 7px;
+	background: #28bdb7;
+}
+
+
+.navigation-Content #content7{
+	position: absolute;
+	left: 500px;
+	width: 400px;
+	height: 180px;
+	display: none;
+	border: solid 1px #f0f0f0;
+	border-top: none;
+}
+.navigation-Content #content7>div:first-child{
+	width: 400px;
+	height: 7px;
+	background: #28bdb7;
+}
+
+
+/* 
+.navigation-Content #content8{
+	position: absolute;
+	right: 0;
+	width: 800px;
+	height: 180px;
+	display: none;
+	border: solid 1px #f0f0f0;
+	border-top: none;
+}
+.navigation-Content #ccontent8>div:first-child{
+	width: 800px;
+	height: 7px;
+	background: #28bdb7;
+} */
+
+
+.navigation-Content #content8{
+	position: absolute;
+	right: 0;
+	width: 830px;
+	height: 180px;
+	display: none;
+	border: solid 1px #f0f0f0;
+	border-top: none;
+}
+.navigation-Content #content8>div:first-child{
+	width: 830px;
+	height: 7px;
+	background: #28bdb7;
+}
+
+
+.navigation-Content #content9{
+	position: absolute;
+	right: 0;
+	width: 770px;
+	height: 180px;
+	display: none;
+	border: solid 1px #f0f0f0;
+	border-top: none;
+}
+.navigation-Content #content9>div:first-child{
+	width: 770px;
+	height: 7px;
+	background: #28bdb7;
+}
+
+
+
+
+.navigation-Content #content10{
+	position: absolute;
+	right: 0;
+	width: 200px;
+	height: 180px;
+	display: none;
+	border: solid 1px #f0f0f0;
+	border-top: none;
+}
+.navigation-Content #content10>div:first-child{
+	width: 200px;
+	height: 7px;
+	background: #28bdb7;
+}
+
+.youhui{
+	width: 1180px;
+	height: 45px;
+	margin: 35px auto;
+	background: #28bdb7;
+	text-align: center;
+}
+.youhui>span{
+	font-family: Helvetica,Helvetica Neue,Arial,sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;	
+	line-height: 45px;
+}

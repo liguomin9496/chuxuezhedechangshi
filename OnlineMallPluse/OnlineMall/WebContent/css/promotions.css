@@ -1,0 +1,226 @@
+html,body {
+	margin: 0 auto;
+
+}
+
+
+
+
+
+
+.promotions_box {
+	height: 2536px;
+	width: 78%;
+	margin-left: 11%;
+}
+
+.promotions_box_navigation {
+	height: 41px;
+	width: 78%;
+	margin-left: 11%;
+	background: white;
+}
+
+.promotions_box_navigation_span {
+	color: #7b7d8b;
+	margin-left: -80px;
+}
+
+.promotions_box_bigpicture {
+	height: 360px;
+	width: 100%;
+	margin-top: -15px;
+	background: url(../img/promotions/meizhuangbibei.jpg);
+}
+
+.promotions_box_bigpicture_buy {
+	height: 360px;
+	width: 353px;
+	background: red;
+	margin-left: 40px;
+}
+
+.promotions_box_bigpicture_buy>div {
+	height: 166px;
+	width: 353px;
+	background: white;
+}
+
+.promotions_box_bigpicture_button {
+	margin-top: 25px;
+	float: left;
+	margin-left: 145px;
+	background: #34b3a1;
+	color: white;
+	border: none;
+	height: 40px;
+	width: 130px;
+	margin-top: 10px;
+	transition: 0.5s;
+}
+
+.promotions_box_bigpicture_button:hover {
+	background: #1f938e;
+}
+
+.promotions_box_square {
+	height: 81px;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.promotions_box_square>div {
+	height: 41px;
+}
+
+.promotions_box_square>div>div {
+	float: left;
+	width: 255px;
+	height: 41px;
+	border: solid 1px black;
+	background: white;
+	line-height: 41px;
+	text-align: center;
+	margin-left: 32px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+
+.promotions_box_square>div>div:hover {
+	background: #28bdb7;
+}
+
+.promotions_box_square_a {
+	color: black;
+	font-size: 15px;
+}
+
+.promotions_box_discount {
+	height: 868px;
+	width: 1116px;
+	margin-left: 32px;
+	margin-top: 50px;
+}
+
+.promotions_box_discount_commodity {
+	height: 434px;
+	width: 351px;
+	float: left;
+	margin-left: 31.5px;
+}
+
+.promotions_box_discount_commodity_small {
+	height: 46px;
+	width: 351px;
+	background: white;
+}
+
+.promotions_box_gift {
+	width: 1116px;
+	height: 421.33px;
+	margin-left: 32px;
+}
+
+.promotions_box_gift_box {
+	height: 421.33px;
+	width: 255px;
+	margin-left: 28px;
+	float: left;
+	border: solid 1px #c4c4c4;
+}
+
+.promotions_box_gift_box_picture {
+	height: 207.73px;
+	width: 253px;
+}
+
+.promotions_box_gift_box_word {
+	height: 211.6px;
+	width: 253px;
+	margin-left: 0.5px;
+}
+
+.promotions_box_gift_box_word_h2 {
+	margin-top: 0px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 80px;
+	transform: scale(1, 2);
+	/*第一个是横向百分比，第二个是纵向百分比*/
+	font-size: 21px;
+	color: black;
+}
+
+.promotions_box_gift_box_word_p {
+	font-size: 15px;
+	font-weight: 200;
+	text-align: center;
+	margin-top: -25px;
+}
+
+.promotions_box_gift_box_word_buttun {
+	margin-top: 25px;
+	background: #34b3a1;
+	color: white;
+	border: none;
+	height: 40px;
+	width: 130px;
+	margin-top: 10px;
+	transition: 0.5s;
+	margin-left: 60px;
+}
+
+.promotions_box_gift_box_word_buttun:hover {
+	background: #1f938e;
+}
+
+.promotions_box_allbuy {
+	width: 1116px;
+	height: 471.2px;
+	margin-left: 32px;
+}
+
+.promotions_box_allbuy_box {
+	height: 471.2px;
+	width: 255px;
+	margin-left: 32px;
+	float: left;
+}
+
+.promotions_box_allbuy_box_picture {
+	height: 265px;
+	width: 255px;
+}
+
+.promotions_box_allbuy_box_a {
+	color: black;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	width: 255px;
+	height: 40px;
+	text-align: center;
+	margin-top: 20px;
+}
+.promotions_box_allbuy_box_span{
+	font-size: 20px;
+}
+.promotions_box_allbuy_box_span_dazhe{
+	text-align: center;
+	font-size: 20px;
+	text-decoration:line-through;/*在数字上加一个杠*/
+	
+}
+.promotions_box_allbuy_box_buttun{
+	margin-top: 25px;
+	background: #34b3a1;
+	color: white;
+	border: none;
+	height: 40px;
+	width: 255px;
+	margin-top: 10px;
+	transition: 0.5s;
+}
+.promotions_box_allbuy_box_buttun:hover{
+	background: #1f938e;
+}

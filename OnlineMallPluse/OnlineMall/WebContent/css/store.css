@@ -1,0 +1,173 @@
+body,html{
+	margin: 0 auto;
+	position: relative;
+	
+}
+
+#shop{
+	width: 700px;
+	height: 485px;
+	background: white;
+	position: fixed;
+	top: 150px;
+	left: 400px;
+	z-index: 2000;
+	display: none;
+}
+#shop>div:first-child{
+	text-align: right;
+	font-size: 25px;
+	color: #ebebeb;
+	font-weight: 1;
+	cursor: pointer;
+}
+#shop h2{
+	font-size: 30.8px;
+    text-align: center;
+	margin-top: 0px;
+}
+#shop .information{
+	width: 700px;
+	height: 204px;
+	padding: 12px 24px;
+}
+#shop .information img{
+	width: 180px;
+	height: 180px;
+}
+
+#shop .count{
+	width: 700px;
+	height: 100px;
+	background: #ebebeb;
+}
+#shop .but div{
+	float: left;
+	width: 320px;
+	height: 45px;
+	border: solid 1px #28bdb7;
+	border-radius: 2px;
+	margin-top: 30px;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 45px;
+	color: #28bdb7;
+	cursor: pointer;
+	transition: 0.5s;
+}
+#shop .but>div:last-child{
+	color: white;
+	background: #28bdb7;
+}#shop .but>div:first-child:hover{
+	color: white;
+	background: #28bdb7;
+}
+#shop .but>div:last-child:hover{
+	background: #34b3a1;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.store_nav {
+	height: 40px;
+	width: 78%;
+	margin-left: 11%;
+	line-height: 40px;
+}
+
+.store_nav_a {
+	color: #5ab7a6;
+	margin-left: 2em;
+}
+
+.store_nav_span {
+	color: #7b7d8b;
+}
+
+.store_section {
+	width: 78%;
+	margin-left: 11%;
+	height: 1210px;
+}
+
+.store_section_left {
+	height: 1210px;
+	width: 738px;
+	float: left;
+}
+
+.store_section_left_title {
+	height: 60px;
+	width: 738px;
+}
+
+.store_section_left_pic {
+	height: 818.4px;
+	width: 738px;
+}
+
+.store_section_left_bigpic {
+	width: 738px;
+	height: 694px;
+}
+
+.store_section_left_minpic {
+	width: 600px;
+	height: 124px;
+	margin-left: 69px;
+	text-align: center;
+}
+
+.store_section_left_information {
+	width: 600px;
+	height: 233px;
+	margin-left: 69px;
+}
+
+.store_section_left_information>div {
+	height: 188px;
+	width: 600px;
+}
+
+.store_section_right {
+	width: 394px;
+	height: 1210px;
+	float: right;
+}
+
+.store_section_right_price {
+	width: 394px;
+	height: 250px;
+	margin-top: 20px;
+}
+
+.store_section_right_span {
+	color: #4e504f;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.store_section_right_input {
+	height: 50px;
+	width: 50px;
+	border: solid 2px #dddddd;
+	margin-left: 30px;
+	outline: none;
+	padding-left: 10px;
+}
+.store_section_right_button {
+	float: left;
+	margin-top: 25px;
+	background: #34b3a1;
+	color: white;
+	border: none;
+	height: 40px;
+	width: 200px;
+}
+.store_section_right_button:hover{
+	background: #298b7d;
+	transition: 0.5s;
+}

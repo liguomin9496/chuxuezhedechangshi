@@ -1,0 +1,287 @@
+html,body {
+	margin: 0 auto;
+}
+
+.head_box {
+	height: 140px;
+	width: 100%;
+	border: solid 1px black;
+}
+
+.head_topbox {
+	height: 40px;
+	width: 100%;
+	background: #f0f0f0;
+}
+
+.head_topbox>div {
+	height: 40px;
+	width: 78%;
+	margin-left: 11%;
+	line-height: 40px;
+	font-size: 15px;
+}
+
+.head_topbox>div>div {
+	height: 40px;
+	width: 80px;
+	float: left;
+}
+
+.head_topbox>div>div:nth-child(2) {
+	height: 40px;
+	width: 230px;
+}
+
+.head_topbox>div>div:nth-child(3) {
+	height: 40px;
+	width: 200px;
+}
+
+.head_topbox>div>div:nth-child(4) {
+	float: right;
+	width: 500px;
+	height: 40px;
+}
+
+.head_topbox>div>div:nth-child(4)>div {
+	float: right;
+}
+
+.link {
+	color: #34b4a3;
+	text-decoration: none;
+}
+
+
+.arrow_down {
+	width: 0px;
+	height: 0px;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 7px solid white;
+	font-size: 0px;
+	line-height: 0px;
+}
+
+.head_midbox {
+	height: 100px;
+	width: 100%;
+}
+
+.head_midbox_logo-search {
+	height: 100px;
+	width: 78%;
+	margin-left: 11%;
+}
+
+.head_midbox_logo {
+	height: 100px;
+	width: 280px;
+	float: left;
+}
+
+.head_midbox_search {
+	height: 40px;
+	width: 880px;
+	float: right;
+	margin-top: 30px;
+}
+
+.head_midbox_search>div:nth-child(1) {
+	height: 40px;
+	width: 310px;
+	margin-left: 70px;
+	float: left;
+}
+
+.head_midbox_search>div:nth-child(1)>div:nth-child(1) {
+	height: 40px;
+	width: 265px;
+	border: solid 0.5px #f1f1f1;
+	float: left;
+	line-height: 40px;
+	font-size: 15px;
+	color: #aaaaaa;
+}
+
+.head_midbox_search>div:nth-child(1)>div:nth-child(2) {
+	height: 40px;
+	width: 44px;
+	margin-left: 265.5px;
+	background: #34b3a1;
+}
+
+.head_midbox_search>div:nth-child(2) {
+	height: 40px;
+	width: 350px;
+	margin-left: 410px;
+}
+
+.head_midbox_search_sousuo {
+	height: 40px;
+	width: 305px;
+	border: solid 0.5px #f1f1f1;
+	float: left;
+	line-height: 40px;
+	font-size: 13px;
+	color: #757575;
+}
+
+.head_midbox_search>div:nth-child(2)>div:nth-child(1) {
+	height: 40px;
+	width: 305px;
+	border: solid 0.5px #f1f1f1;
+	float: left;
+	line-height: 40px;
+	font-size: 13px;
+	color: #757575;
+}
+
+.head_midbox_search>div:nth-child(2)>div:nth-child(2) {
+	height: 40px;
+	width: 44px;
+	margin-left: 305.5px;
+	background: #34b3a1;
+}
+
+.head_midbox_search>div:nth-child(3) {
+	width: 85px;
+	height: 38px;
+	border: solid 1px #34b3a1;
+	float: right;
+	margin-top: -40px;
+	line-height: 38px;
+	font-size: 13px;
+	color: #34b3a1;
+	text-align: center;
+}
+
+.mycount {
+	width: 140px;
+	height: 60px;
+	border: solid 1px #cccccc;
+	display: none;
+	position: absolute;
+	z-index: 3;
+	margin-left: -40px;
+	background: white;
+}
+
+.QR_code {
+	width: 280px;
+	height: 200px;
+	border: solid 1px #cccccc;
+	display: none;
+	position: absolute;
+	z-index: 3;
+	background: white;
+	margin-left: -180px;
+}
+
+.QR_code>div {
+	width: 260px;
+	height: 180px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.QR_code>div>div {
+	width: 260px;
+	height: 89.5px;
+	border-bottom: solid 1px #cccccc;
+	float: left;
+}
+
+.QR_code>div>div:last-child {
+	border-bottom: none;
+}
+
+.QR_code>div>div>div:nth-child(1) {
+	height: 90px;
+	width: 90px;
+	float: left;
+}
+
+.QR_code>div>div>div:nth-child(2) {
+	width: 160px;
+	height: 50px;
+	margin-left: 100px;
+	margin-top: 18px;
+}
+
+.QR_code>div>div>div:nth-child(2)>div:first-child {
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+.QR_code>div>div>div:nth-child(2)>div:last-child {
+	width: 115px;
+	height: 50px;
+	margin-left: 45px;
+}
+
+.brand_catalog {
+	width: 310px;
+	height: 303px;
+	border: solid 1px #cccccc;
+	display: none;
+	position: absolute;
+	z-index: 3;
+	background: white;
+	float: left;
+}
+
+.brand_catalog>div:nth-child(1) {
+	height: 60px;
+	width: 308px;
+	background: #ebebeb;
+}
+
+.brand_catalog>div:nth-child(2) {}
+
+.independentbox {
+	height: 240px;
+	width: 308px;
+	overflow: auto;
+}
+
+.independentbox>div {
+	height: 30px;
+	width: 273px;
+	background: white;
+	margin-left: 18px;
+	color: #34b3a1;
+}
+
+
+/*滚动条的整体样式*/
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: #e5e5e5;
+}
+
+
+/*滚动条里面的轨道*/
+
+::-webkit-scrollbar {
+	width: 12px;
+	background-color: #e5e5e5;
+}
+
+
+/*滚动条里面的轨道*/
+
+::-webkit-scrollbar-thumb {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+	background-color: #000000;
+}
+.brandli{
+	color: #34b3a1;
+	list-style: none;
+	margin-top: -15px;
+	margin-left: 18px;
+}
+

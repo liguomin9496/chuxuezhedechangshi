@@ -1,0 +1,67 @@
+html,
+body {
+	margin: 0 auto;
+}
+
+.registered_box {
+	height: 710px;
+	width: 100%;
+}
+
+.registered_box_head {
+	height: 105px;
+	width: 100%;
+}
+
+.registered_box_head>div {
+	width: 78%;
+	height: 105px;
+	margin-left: 11%;
+	line-height: 105px;
+}
+
+.registered_box_body {
+	width: 78%;
+	height: 600px;
+	margin-left: 11%;
+}
+
+.registered_box_body_reglist {
+	height: 600px;
+	width: 500px;
+	float: right;
+	background: #f0f0f0;
+	margin-top: -600px;
+}
+
+.registered_box_body_reglist_li {
+	list-style: none;
+	margin-top: 40px;
+}
+
+.registered_box_body_reglist_span {
+	margin-left: 28px;
+	color: #4e504f;
+	font-weight: 100;
+	font-size: 14px;
+}
+
+.registered_box_body_reglist_input {
+	height: 40px;
+	width: 330px;
+	outline: none;
+	border: none;
+	margin-left: 50px;
+	text-indent: 1em;
+}
+
+.registered_box_body_reglist_button {
+	margin-top: 25px;
+	float: right;
+	margin-right: 30px;
+	background: #34b3a1;
+	color: white;
+	border: none;
+	height: 40px;
+	width: 440px;
+}

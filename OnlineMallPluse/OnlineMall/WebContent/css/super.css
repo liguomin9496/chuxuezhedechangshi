@@ -1,0 +1,14 @@
+.commodity-details{
+	width: 1000px;
+	
+}
+.commodity-details th, .order-details th{
+	text-align: center;
+}
+.commodity-details td, .order-details td{
+	text-align: center;
+}
+.order-details{
+	width: 1000px;
+	
+}

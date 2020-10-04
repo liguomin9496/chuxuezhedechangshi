@@ -1,0 +1,11 @@
+.super_headbox{
+	height: 100px;
+	width: 100%;
+	background: #34b3a1;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 100px;
+	font-size: 40px;
+}
+

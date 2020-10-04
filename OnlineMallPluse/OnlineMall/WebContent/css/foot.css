@@ -1,0 +1,171 @@
+
+html,
+body {
+	margin: 0 auto;
+}
+
+.foot_box {
+	width: 100%;
+	height: 546px;
+	border: solid 1px black;
+	
+}
+
+
+/*
+ * foot_box_top
+ */
+
+.foot_box_top_link {
+	color: #34b3a1;
+	font-size: 15px;
+}
+
+.foot_box_top {
+	height: 57px;
+	width: 100%;
+	border: solid 0.5px #f0f0f0;
+}
+
+.foot_box_top>div {
+	height: 57px;
+	width: 78%;
+	margin-left: 11%;
+}
+
+.foot_box_top>div>div {
+	height: 57px;
+	width: 25%;
+	border-left: solid 0.5px #f0f0f0;
+	float: left;
+	color: #34b3a1;
+	line-height: 57px;
+}
+
+.foot_box_top>div>div:last-child {
+	border-right: solid 0.5px #f0f0f0;
+}
+
+
+/*
+ * foot_box_mid
+ */
+
+.foot_box_mid {
+	height: 333.5px;
+	width: 100%;
+}
+
+.foot_box_mid_bigbox {
+	width: 100%;
+	height: 272px;
+	background: #f9f9f9;
+	border-bottom: solid 0.5px #f0f0f0;
+	;
+}
+
+.foot_box_mid_bigbox>div {
+	width: 78%;
+	height: 272px;
+	margin-left: 11%;
+}
+
+.foot_box_mid_bigbox>div>div:first-child {
+	height: 272px;
+	width: 826px;
+	float: left;
+}
+
+.foot_box_mid_bigbox>div>div:first-child>div {
+	height: 272px;
+	width: 191.5px;
+	float: left;
+	margin-left: 20px;
+}
+
+.foot_box_mid_bigbox>div>div:first-child>div:last-child {
+	margin-left: 0px;
+}
+
+.foot_box_mid_bigbox>div>div:first-child>div>div {
+	height: 248px;
+	width: 191.5px;
+	margin-top: 24px;
+}
+
+
+/*
+ *字体样式
+ */
+
+.foot_box_mid_bigbox_li {
+	list-style: none;
+	margin-top: 18px;
+}
+
+.foot_box_mid_bigbox_dazi {
+	color: #4e504f;
+	font-weight: bolder;
+	font-size: 17px;
+}
+
+.foot_box_mid_bigbox_xiaozi {
+	color: #4e504f;
+}
+
+.foot_box_mid_bigbox>div>div:last-child {
+	height: 272px;
+	width: 350px;
+	float: right;
+}
+
+.foot_box_mid_smallbox {
+	height: 61px;
+	width: 100%;
+	background: #f9f9f9;
+}
+
+
+/*
+ * foot_box_bottom
+ */
+
+.foot_box_bottom {
+	height: 154px;
+	width: 100%;
+	background: #ebebeb;
+}
+
+.foot_box_bottom>div {
+	height: 154px;
+	width: 78%;
+	margin-left: 11%;
+}
+
+.foot_box_bottom>div>div:nth-child(1) {
+	height: 120.48px;
+	width: 590px;
+	float: left;
+}
+
+.foot_box_bottom>div>div:nth-child(1)>div {
+	height: 60.24px;
+	width: 590px;
+	color: #9a9d9c;
+	font-size: 17px;
+	line-height: 60.24px;
+}
+
+.foot_box_bottom>div>div:nth-child(2) {
+	height: 154px;
+	width: 590px;
+	float: right;
+}
+
+.foot_box_bottom>div>div:nth-child(2)>div {
+	height: 60.24px;
+	width: 590px;
+	color: #9a9d9c;
+	font-size: 17px;
+	line-height: 60.24px;
+}
