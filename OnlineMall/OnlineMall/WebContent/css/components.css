@@ -1,0 +1,70 @@
+@charset "UTF-8";
+html,body {
+	margin: 0 auto;
+}
+.hbox {
+	height: 140px;
+	width: 1210px;
+	border: solid 1px black;
+}
+.htbox {
+	height: 100px;
+	width: 1210px;
+	background: #f0f0f0;
+}
+.link {
+	color: #34b4a3;
+	text-decoration: none;
+}
+.hmbox {
+	height: 100px;
+	width: 100%;
+}
+.search {
+	height: 100px;
+	width: 78%;
+	margin-left: 11%;
+}
+.hmbox_logo {
+	height: 100px;
+	width: 280px;
+	float: left;
+}
+.search1 {
+	height: 40px;
+	width: 880px;
+	float: right;
+	margin-top: -50px;
+	margin-left:10px;	
+}
+.sousuo {
+	height: 40px;
+	width: 305px;
+	border: solid 0.5px #f1f1f1;
+	float: left;
+	line-height: 40px;
+	font-size: 13px;
+	color: #757575;
+}
+.cdetails{	
+	width: 1000px;	
+}
+.cdetails th, .odetails th{
+	text-align: center;
+}
+.cdetails td, .odetails td{
+	text-align: center;
+}
+.odetails{
+	width: 1000px;	
+}
+.super_headbox{
+	height: 100px;
+	width: 100%;
+	background: #34b3a1;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 100px;
+	font-size: 40px;	
+}

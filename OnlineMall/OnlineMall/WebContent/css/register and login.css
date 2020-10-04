@@ -1,0 +1,85 @@
+@charset "UTF-8";
+html,body {
+	margin: 0 auto;
+}
+.body {
+	width: 78%;
+	height: 600px;
+	margin-left: 11%;
+}
+.reglist {
+	height: 550px;
+	width: 500px;
+	float: left;
+	background: #f0f0f0;
+	margin-top: -550px;
+	margin-left: 50px;
+}
+.rli {
+	list-style: none;
+	margin-top: 20px;
+}
+.rspan {
+	margin-left: 28px;
+	color: #4e504f;
+	font-weight: 100;
+	font-size: 14px;
+}
+.rinput {
+	height: 40px;
+	width: 330px;
+	outline: none;
+	border: none;
+	margin-left: 50px;
+	text-indent: 1em;
+}
+.rbutton {
+	margin-top: 0px;
+	float: right;
+	margin-right: 30px;
+	background: #34b3a1;
+	color: white;
+	border: none;
+	height: 40px;
+	width: 440px;
+}
+.lbottom {
+	height: 412px;
+	width: 100%;}
+.li {
+	list-style: none;
+	height: 350px;
+	width: 480px;
+	margin-top: -350px;
+	margin-left: 50px;
+	background: #f0f0f0;
+	float: left;
+	color: #4E504F;
+	border: solid 1px #dddddd;
+}
+.input {
+	height: 60px;
+	width: 370px;
+	font-size: 18px;
+	outline: none;
+	border: none;
+	margin-left: -4px;
+	margin-top: 20px;
+}
+.button {
+	margin-top: 30px;
+	float: right;
+	margin-right: 180px;
+	background: #34b3a1;
+	color: white;
+	border: none;
+	height: 40px;
+	width: 130px;
+}
+.lspan {
+	margin-left: 10px;
+	color: #4e504f;
+	font-weight: 100;
+	font-size: 20px;
+	magin-top:10px;
+}

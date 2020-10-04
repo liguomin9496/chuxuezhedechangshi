@@ -1,0 +1,96 @@
+html,body {
+	margin: 0 auto;}
+.discount {
+	height: 868px;
+	width: 1116px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.gift {
+	width: 1116px;
+	height: 421.33px;
+	margin-left: 32px;
+}
+.gbox {
+	height: 421.33px;
+	width: 255px;
+	margin-left: 28px;
+	float: left;
+	border: solid 1px #c4c4c4;
+}
+.gpicture {
+	height: 207.73px;
+	width: 253px;
+}
+.word {
+	height: 211.6px;
+	width: 253px;
+	margin-left: 0.5px;
+}
+.wh2 {
+	margin-top: 0px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 80px;
+	transform: scale(1, 2);	
+	font-size: 21px;
+	color: black;
+}
+.wp {
+	font-size: 15px;
+	font-weight: 200;
+	text-align: center;
+	margin-top: -25px;
+}
+.wbuttun {
+	margin-top: 25px;
+	background: #34b3a1;
+	color: white;
+	border: none;
+	height: 40px;
+	width: 130px;
+	margin-top: 10px;
+	transition: 0.5s;
+	margin-left: 60px;
+}
+.wbuttun:hover {
+	background: #1f938e;
+}
+.allbuy {
+	width: 1116px;
+	height: 471.2px;
+	margin-left: 32px;
+}
+.abox {
+	height: 471.2px;
+	width: 255px;
+	margin-left: 32px;
+	float: left;
+}
+.apicture {
+	height: 265px;
+	width: 255px;
+}
+.a {
+	color: black;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	width: 255px;
+	height: 40px;
+	text-align: center;
+	margin-top: 20px;
+}
+.span{
+	font-size: 20px;
+}
+.abuttun{
+	margin-top: 25px;
+	background: #34b3a1;
+	color: white;
+	border: none;
+	height: 40px;
+	width: 255px;
+	margin-top: 10px;
+	transition: 0.5s;
+	}
