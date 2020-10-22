@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\李国民9496\AppData\Local\Temp\RSPBD2.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/2.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\李国民9496\蓝桥杯赛题\蓝桥杯赛题\第十届省赛\第十届蓝桥杯大赛省赛（软件类）真题\CB\CB源码\2.cpp"
+]
+Creating command line "cl.exe @"C:\Users\李国民9496\AppData\Local\Temp\RSPBD2.tmp"" 
+Creating temporary file "C:\Users\李国民9496\AppData\Local\Temp\RSPBD3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/2.pdb" /debug /machine:I386 /out:"Debug/2.exe" /pdbtype:sept 
+".\Debug\2.obj"
+".\Debug\3.obj"
+]
+Creating command line "link.exe @"C:\Users\李国民9496\AppData\Local\Temp\RSPBD3.tmp""
+<h3>Output Window</h3>
+Compiling...
+2.cpp
+Linking...
+3.obj : error LNK2005: _main already defined in 2.obj
+Debug/2.exe : fatal error LNK1169: one or more multiply defined symbols found
+执行 link.exe 时出错.
+
+
+
+<h3>Results</h3>
+2.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
